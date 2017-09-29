@@ -1,7 +1,3 @@
-if (SERVER) then
+print("test")
 
-end
-
-if (CLIENT) then
-    local midW, midH = ScrW() / 2, ScrH() / 2
-end
+printMessage(HUD_Printalk, "Funktoniert")
