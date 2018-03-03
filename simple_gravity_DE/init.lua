@@ -4,7 +4,7 @@ AddCSLuaFile("cl_init.lua")
 include("shared.lua")
 
 function ENT:Initialize()
--- Hier Änderst du das Leben des Gravity Generator's
+-- Hier Änderst du das Leben des Gravity Generator's1
 health = 2000
 
 self:SetModel("models/props_combine/combine_interface001.mdl")
